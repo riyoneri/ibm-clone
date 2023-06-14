@@ -4,19 +4,18 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        main: "",
-        "main-light": "",
-        "main-bold": ""
+        main: "IBM-Regular",
+        "main-light": "IBM-Light",
+        "main-bold": "IBM-Semibold",
       },
-      backgroundImage: {
-        
-      },
+      backgroundImage: {},
       colors: {
-        "main": "",
-        "hover": "",
-      }
+        main: "",
+        hover: "",
+        link: "#0f62fe",
+      },
     },
   },
   plugins: [],
-}
+};
 
